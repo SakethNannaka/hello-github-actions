@@ -1,0 +1,4 @@
+name: 'Hello Prime'
+runs:
+  using: 'node12'
+  main: 'prime.js'

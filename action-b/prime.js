@@ -24,7 +24,8 @@ function isPrime(num) {
     }
   
   }
-
-
-
-console.log(isPrime(121));
+var assert = require('assert');
+assert(isPrime(1)==false, " Test case 1 passed - isPrime(1)");
+assert(isPrime(10)==false, " Test case 1 passed - isPrime(10)");
+assert(isPrime(3),"TestCase 3 passed-isPrime(3)")
+console.log("All Test Cases Passed !!")
